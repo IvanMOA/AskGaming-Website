@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/banners/askLogo.png"> 
+    <title>Document</title>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <!-- Css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/f21cb0d568.js" crossorigin="anonymous"></script>
+</head>
+<body class="servers-body">
+
+    <!-- Mobile Navbar -->
+    <div id="mobile-nav" class="mob-navbar slide-out">
+        <ul> 
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./tienda.html">Tienda</a></li>  
+            <li><a href="./vote.html">Votar</a></li>
+            <li><a href="./reglas.html">Reglas</a></li>
+            <li><a href="./servidores.html">Servidores</a></li>
+            <li><a href="./contacto.html">Contacto</a></li> 
+
+        </ul>
+    </div> 
+    <div id="low-bright" class="low-bright bright-off"></div>
+
+
+    <!-- Navbar -->  
+    <div class="navigation">   
+        <div class="logo-btn black-navbar">  
+            <img  class="logo" src="./image/banners/askLogo.png" alt=""> 
+            <button class="ham-btn"> 
+                <svg class="lines-icon" width="27" height="21" viewBox="0 0 27 21">
+                    <g id="Group_245" data-name="Group 245" transform="translate(-293.5 -59)">
+                      <line id="line_1" data-name="Line 58" x2="27" transform="translate(293.5 59.5)" fill="none" stroke="#fffffa" stroke-width="1"/>
+                      <line id="line_2" data-name="Line 59" x2="27" transform="translate(293.5 69.5)" fill="none" stroke="#fffffa" stroke-width="1"/>
+                      <line id="line_3" data-name="Line 60" x2="27" transform="translate(293.5 79.5)" fill="none" stroke="#fffffa" stroke-width="1"/>
+                    </g>
+                  </svg>
+            </button> 
+            <div class="navbar">
+                <ul> 
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./tienda.html">Tienda</a></li>  
+                    <li><a href="./vote.html">Votar</a></li>
+                    <li><a href="./reglas.html">Reglas</a></li>
+                    <li><a href="./servidores.html">Servidores</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li> 
+
+                </ul> 
+            </div>
+        </div>
+    </div>
+
+    <!-- Server selector --> 
+    <div class="server-selector">
+        <button class="survival-selector">
+            <h1>Survival</h1>  
+        </button>
+        <button class="realista-selector">
+            <h1 class="server-selected">Realista</h1>  
+
+        </button>
+        <button class="kitpvp-selector">
+            <h1>KitPvP</h1>    
+        </button>
+    </div>
+
+    <!-- Server display -->
+
+    <div class="all-servers">
+        <!-- Realista -->
+    <div class="servers-display realista-display fade-in">
+        <h1 class="server-desc">Juega de manera pacífica si así lo deseas y conquista las tierras de este nuevo mundo</h1>
+        <h2>Revisa el mapa en <a href="http://map.askgaming.org/">map.askgaming.org</a></h2>
+        <div class="server-cards">
+            <!-- Mapa -->
+            <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Continentes</p>
+                    <h1 class="sc-title">Mapa Mundial</h1>
+                    <p class="sc-desc">Podrás ver el mapa en tiempo real desde la web</p>
+                </div>
+                <div class="card-img">   
+                    <img src="./image/card-images/realista-mapa.png" alt="">
+                </div>
+            </div>
+            <!-- Mascotas -->
+            <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">MyPet</p>
+                    <h1 class="sc-title">Mascotas</h1>
+                    <p class="sc-desc">Mascotas con habilidades desbloqueables</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/realista-mascotas.png" alt="">
+                </div>
+            </div>
+             <!-- Comerciantes -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Shop</p>
+                    <h1 class="sc-title">Comerciantes</h1>
+                    <p class="sc-desc">NPC's que te venderán y compraran items por dinero</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/realista-comerciantes.png" alt="">
+                </div>
+            </div>
+             <!-- MCMMO -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">mcmmo</p>
+                    <h1 class="sc-title">MCMMO</h1>
+                    <p class="sc-desc">Habilidades únicas que podrás subir de nivel</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/realista-mcmmo.png" alt="">
+                </div>
+            </div>
+             <!-- Misiones -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Misiones</p>
+                    <h1 class="sc-title">Misiones</h1>
+                    <p class="sc-desc">Completa misiones para obtener recompensas</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/realista-misiones.png" alt="">
+                </div>
+            </div>
+             <!-- Casa de ventas -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">MyPet</p>
+                    <h1 class="sc-title">Casa de ventas</h1>
+                    <p class="sc-desc">Los jugadores pueden poner en venta sus items</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/realista-ah.png" alt="">
+                </div>
+            </div>
+             <!-- Realismo -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Realismo</p>
+                    <h1 class="sc-title">Realismo</h1>
+                    <p class="sc-desc">Gravedad, sed y cansancio para una experiencia realista</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/realista-realismo.png" alt="">
+                </div>
+            </div>
+             <!-- Ciudades -->
+             <div class="server-card">
+                <div class="card-text"> 
+                    <p class="mini-extra">Ciudades</p>
+                    <h1 class="sc-title">Ciudades</h1>
+                    <p class="sc-desc">Funda una ciudad o únete a una para más diversión !</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/realista-ciudad.png" alt="">
+                </div>
+            </div>
+            
+        </div> 
+    </div>
+    
+    <!-- KitPvP -->
+    <div class="servers-display kitpvp-display disappear">
+        <h1 class="server-desc">Utiliza los kits prediseñados o mejora tu equipamento y pelea contra los demás</h1>
+        <div class="server-cards"> 
+             <!-- RPG -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">RPG</p>
+                    <h1 class="sc-title">Modo RPG</h1>  
+                    <p class="sc-desc">Consigue tu propio equipamento poco a poco para pelear</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/kitpvp-rpg.png" alt="">
+                </div>
+            </div>
+            <!-- Kits Fijos -->
+            <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Fijos</p>
+                    <h1 class="sc-title">Kits Fijos</h1>
+                    <p class="sc-desc">Pelea con kits ya hechos, listos para matar</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/kitpvp-kits.png" alt="">
+                </div>
+            </div>
+            <!-- Duelos -->
+            <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">RPG</p>
+                    <h1 class="sc-title">Duelos</h1>
+                    <p class="sc-desc">Reta a otros jugadores con kits prehechos</p>
+                </div>
+                <div class="card-img">   
+                    <img src="./image/card-images/kitpvp-duelos.png" alt="">
+                </div>
+            </div>
+             <!-- Tops -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">RPG</p>
+                    <h1 class="sc-title">Tops</h1>
+                    <p class="sc-desc">Sé el mejor y conquista el top uno del servidor</p>
+                </div>
+                <div class="card-img">   
+                    <img src="./image/card-images/kitpvp-infoytops.png" alt="">
+                </div>
+            </div>
+             <!-- Mejoras -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">RPG</p>
+                    <h1 class="sc-title">Mejoras</h1>
+                    <p class="sc-desc">Consigue esmeraldas y compra mejoras permanentes</p>
+                </div>
+                <div class="card-img">   
+                    <img src="./image/card-images/kitpvp-mejoras.png" alt="">
+                </div>
+            </div>   
+             <!-- Tiendas -->   
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">RPG</p>
+                    <h1 class="sc-title">Tiendas</h1>
+                    <p class="sc-desc">Compra items vendidos por otros jugadores</p>
+                </div>
+                <div class="card-img">   
+                    <img src="./image/card-images/kitpvp_tiendas.png" alt="">
+                </div>
+            </div>
+             <!-- Rotación de mapas -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Kits fijos</p>
+                    <h1 class="sc-title">Rotación de mapas</h1>
+                    <p class="sc-desc">Cada cierto tiempo los mapas cambiarán</p>
+                </div>
+                <div class="card-img">   
+                    <img src="./image/card-images/kitpvp-fijos.png" alt="">
+                </div>
+            </div>
+             <!-- Habilidades -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Kits fijos</p>
+                    <h1 class="sc-title">Habilidades</h1>
+                    <p class="sc-desc">Tendrás un dash y supersaltos para un pvp dinámico</p>
+                </div>
+                <div class="card-img">   
+                    <img src="./image/card-images/kitpvp-habilidades.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Survival -->
+    <div class="servers-display survival-display disappear">
+        <h1 class="server-desc">Utiliza los kits prediseñados o mejora tu equipamento y pelea contra los demás</h1>
+        <div class="server-cards"> 
+            <!-- Duelos -->
+            <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Duel</p>
+                    <h1 class="sc-title">Duelos</h1>
+                    <p class="sc-desc">Puedes hacer duelos con tus propios items y apostar!</p>
+                </div>
+                <div class="card-img">   
+                    <img src="./image/card-images/survival-duelos.png" alt="">
+                </div>
+            </div>
+            <!-- Niveles -->
+            <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Levels</p>
+                    <h1 class="sc-title">Niveles</h1>
+                    <p class="sc-desc">Sube de nivel para comprar distintos permisos !</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/survival-niveles.png" alt="">
+                </div>
+            </div>
+             <!-- Arenas -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Arena</p>
+                    <h1 class="sc-title">Arenas</h1>
+                    <p class="sc-desc">Arenas donde puedes farmear items o dinero!</p>
+                </div> 
+                <div class="card-img">    
+                    <img src="./image/card-images/survival-arenas.png" alt="">
+                </div>
+            </div>
+             <!-- Carcel -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Jail</p>
+                    <h1 class="sc-title">Carcel</h1>
+                    <p class="sc-desc">Sistema anti bugs/exploits con staff activo</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/survival-carcel.png" alt="">
+                </div>
+            </div>
+             <!-- Desafios -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Desafios</p>
+                    <h1 class="sc-title">Desafios</h1>
+                    <p class="sc-desc">Muchos desafios con premios increíbles por obtener</p>
+                </div>  
+                <div class="card-img">    
+                    <img src="./image/card-images/survival-desafios.png" alt="">
+                </div>
+            </div>
+             <!-- Eventos -->
+             <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Mini</p>
+                    <h1 class="sc-title">Eventos</h1>
+                    <p class="sc-desc">AutoEventos, Asesino de Dragones, Luna de Sangre, y más!</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/survival-eventos.png" alt="">
+                </div>
+            </div>
+            <!-- Comercio --> 
+            <div class="server-card">
+                <div class="card-text">
+                    <p class="mini-extra">Shop</p>
+                    <h1 class="sc-title">Comercio</h1>
+                    <p class="sc-desc">Comercia con otros jugadores y con el servidor</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/survival-comercio.png" alt="">
+                </div>
+            </div>
+            <!-- PvP -->
+            <div class="server-card">
+                <div class="card-text">    
+                    <p class="mini-extra">PvP</p>
+                    <h1 class="sc-title">PvP</h1>
+                    <p class="sc-desc">Pelea contra los demás jugadores en donde quieras</p>
+                </div>
+                <div class="card-img">    
+                    <img src="./image/card-images/survival-pvp.png" alt="">
+                </div>
+            </div> 
+        </div>  
+    </div>   
+
+    </div>
+
+    <div class="lobbies">
+        <div class="lobby">
+            <h1 class="loby-numer">Lobby 1</h1>
+            <p>En el lobby 1 podrás jugar un parkour personalizado y competir contra los demás por el top 1</p>
+        </div>
+        <div class="lobby">
+            <h1 class="loby-numer">Lobby 2</h1>
+            <p>Aquí podrás construir en el mundo creativo y ver tus creaciones y la de todos los demás que hayan construido en la web del mapa, revisalo en <a href="creativo.askgaming.org">creativo.askgaming.org</a></p>
+        </div>
+    </div>
+
+   <!-- Footer -->
+   <div class="footer">
+    <h2>AskGaming - 19/2020 - Todos los derechos reservados. <a href="./politicas.html">Términos y condiciones.</a></h2>
+    <h2>No asociados con Mojang</h2>
+</div>
+
+    <script src="https://mcapi.us/scripts/minecraft.js"></script>
+    <script src="servidores.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

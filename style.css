@@ -281,6 +281,10 @@ body {
           flex-direction: column;
 }
 
+.main-banner .hero .people-on .general-on {
+  color: #FFFFFA;
+}
+
 .main-banner .hero .people-on p {
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1400 - 300)));
 }

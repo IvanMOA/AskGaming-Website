@@ -311,7 +311,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  margin-bottom: 2em;
 }
 
 .servers .server-slogan {
@@ -794,8 +793,8 @@ body {
     margin: 0 !important;
   }
   .servers {
-    padding: 0;
-    margin: 0;
+    padding: 2em;
+    margin: 2em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -811,7 +810,6 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100vw;
-    height: 80vh;
     -ms-grid-columns: 0.33fr 0.33fr 0.33fr;
         grid-template-columns: 0.33fr 0.33fr 0.33fr;
     position: relative;
@@ -912,8 +910,8 @@ body {
             justify-content: center;
   }
   .shop-banner {
-    -ms-grid-rows: 50vh 2em 2em !important;
-        grid-template-rows: 50vh 2em 2em !important;
+    -ms-grid-rows: 70vh 2em 2em !important;
+        grid-template-rows: 70vh 2em 2em !important;
   }
   .shop-banner .shop-title {
     font-size: 4em !important;
